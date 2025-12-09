@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nails X Project</title>
+  <meta name="description" content="Nails X Project - Premium Nail Art Studio di Sukawati, Gianyar, Bali. Gel Polish, Extension, Custom Nail Art. Booking via WA: 0878-4607-4176 💅">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#1a1a2e,#16213e);color:#eee;line-height:1.6;}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;text-align:center;}
+    .logo-circle{width:300px;height:300px;margin:3rem auto 2rem;background:radial-gradient(circle at 30% 30%,#ffb6a8,#ff8c78,#ff6b6b);border-radius:50%;display:flex;flex-direction:column;justify-content:center;align-items:center;box-shadow:0 20px 50px rgba(255,107,107,.4);animation:float 6s ease-in-out infinite;}
+    .logo-circle h1{font-family:'Playfair Display',serif;font-size:5.5rem;color:white;letter-spacing:12px;margin-bottom:-10px;}
+    .logo-circle p{font-size:1.4rem;color:rgba(255,255,255,0.9);letter-spacing:4px;}
+    h2{font-family:'Playfair Display',serif;font-size:2.8rem;margin:3rem 0 1.5rem;color:#ff8c78;}
+    .subtitle{font-size:1.2rem;max-width:700px;margin:0 auto 3rem;}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin:3rem 0;padding:0 1rem;}
+    .gallery img{width:100%;border-radius:12px;aspect-ratio:1/1;object-fit:cover;box-shadow:0 10px 30px rgba(0,0,0,0.5);transition:0.4s;}
+    .gallery img:hover{transform:scale(1.05);}
+    .packages{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin:4rem 0;}
+    .card{background:rgba(255,255,255,0.05);border-radius:16px;padding:2rem;backdrop-filter:blur(10px);border:1px solid rgba(255,140,120,0.2);transition:0.4s;}
+    .card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(255,107,107,0.2);}
+    .price{font-size:2rem;font-weight:bold;color:#ff8c78;margin:1rem 0;}
+    .wa-small{display:inline-block;background:#25D366;color:white;padding:0.8rem 1.8rem;border-radius:50px;margin-top:1rem;text-decoration:none;font-size:1rem;}
+    .info{margin:4rem 0;}
+    .info i{color:#ff8c78;margin-right:10px;}
+    footer{margin-top:5rem;padding:2rem;color:#888;font-size:0.9rem;}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+    @media(max-width:768px){.logo-circle{width:240px;height:240px;}.logo-circle h1{font-size:4rem;letter-spacing:8px;}}
+    /* Fallback untuk backdrop-filter jika tidak didukung */
+    @supports not (backdrop-filter: blur(10px)) {
+      .card { background: rgba(42, 42, 78, 0.8); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-circle">
+      <h1>NXP</h1>
+      <p>Nails X Project</p>
+    </div>
+
+    <h2>Premium Nail Art Studio</h2>
+    <p class="subtitle">Setiap kuku adalah karya seni. Kita wujudkan impianmu jadi nyata 💅✨</p>
+
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800" alt="Gel polish dengan desain abstrak dan warna pastel">
+      <img src="https://images.unsplash.com/photo-1610992015786-6a7f7ed4f0e6?w=800" alt="Ekstensi kuku acrylic dengan nail art floral">
+      <img src="https://images.unsplash.com/photo-1596462502278-ffb9f7a8ad71?w=800" alt="Manicure dengan polish glossy dan desain minimalis">
+      <img src="https://images.unsplash.com/photo-1604654762244-3c2ef258b980?w=800" alt="Custom nail art dengan motif Bali dan glitter">
+      <img src="https://images.unsplash.com/photo-1610992015739-3e2f8e2b5d43?w=800" alt="Full set extension dengan bentuk oval dan warna nude">
+      <img src="https://images.unsplash.com/photo-1610992015804-2c1e92c3f7c9?w=800" alt="Nail art dengan rhinestones dan desain elegan">
+    </div>
+
+    <h2>Paket Treatment</h2>
+    <div class="packages">
+      <div class="card">
+        <h3>Basic Manicure</h3>
+        <div class="price">Rp 150.000</div>
+        <ul style="text-align:left;margin:1rem 0;">
+          <li>Cuticle care + shaping</li>
+          <li>Polish warna solid</li>
+          <li>Hand massage 10 menit</li>
+        </ul>
+        <a href="https://wa.me/6287846074176?text=Halo%20NXP%2C%20mau%20booking%20Basic%20Manicure%20dong%20%F0%9F%98%8D" class="wa-small" target="_blank">Booking via WA</a>
+      </div>
+
+      <div class="card">
+        <h3>Gel Polish + Art</h3>
+        <div class="price">Rp 250.000 - 350.000</div>
+        <ul style="text-align:left;margin:1rem 0;">
+          <li>Gel tahan 3-4 minggu</li>
+          <li>Custom nail art (max 5 jari)</li>
+          <li>Free hand cream</li>
+        </ul>
+        <a href="https://wa.me/6287846074176?text=Halo%20NXP%2C%20mau%20Gel%20Polish%20%2B%20Art%20nih%20%F0%9F%94%A5" class="wa-small" target="_blank">Booking via WA</a>
+      </div>
+
+      <div class="card">
+        <h3>Full Set Extension</h3>
+        <div class="price">Rp 450.000 - 650.000</div>
+        <ul style="text-align:left;margin:1rem 0;">
+          <li>Acrylic/Polygel extension</li>
+          <li>Bentuk & panjang custom</li>
+          <li>Full nail art 10 jari</li>
+        </ul>
+        <a href="https://wa.me/6287846074176?text=Halo%20NXP%2C%20mau%20Full%20Set%20Extension%20dong%20%F0%9F%92%85" class="wa-small" target="_blank">Booking via WA</a>
+      </div>
+    </div>
+
+    <div class="info">
+      <p><i class="fab fa-whatsapp"></i> WA: +62 878-4607-4176</p>
+      <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/nalis_x_project" target="_blank" style="color:#ff8c78;text-decoration:none;">@nalis_x_project</a></p>
+      <p><i class="fas fa-clock"></i> Buka setiap hari 10:00 - 20:00</p>
+      <p><i class="fas fa-map-marker-alt"></i> Sukawati, Gianyar, Bali (alamat lengkap via WA)</p>
+    </div>
+
+    <footer>© 2025 Nails X Project • All rights reserved</footer>
+  </div>
+</body>
+</html>
